@@ -1,0 +1,166 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    width: 1903px;
+}
+
+aside, main {
+    height: 1200px;
+}
+
+aside {
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    background-color: #fff;
+    width: 18%;
+    color: #91a5af;
+}
+
+aside > h1 {
+    font-size: 56px;
+    padding: 40px;
+    color: #000;
+}
+
+aside > h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0 10px 0;
+}
+
+aside > img {
+    border-radius: 50%;
+    width: 55%;
+}
+
+main {
+    background-color: #f3f5f7;
+    width: 100%;
+}
+nav{
+    padding-left: 10px;
+}
+ul {
+    margin-top: 20px;
+    list-style: none;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul > li, ul a {
+    text-decoration: none;
+    padding: 15px 12px 20px 12px;
+    color: #CBD1D5;
+}
+
+ul > li:hover a, ul > li:hover {
+    color: #000;
+}
+
+span {
+    color: #91a5af;
+}
+
+header {
+    padding: 60px 0 50px 40px;
+    margin-left: 410px;
+}
+
+main h2 {
+    font-weight: 500;
+    font-size: 36px;
+    float: left;
+}
+
+main > header > button {
+    float: right;
+    padding: 10px 20px;
+    margin: 10px 80px 0 0;
+    background: #ff7739;
+    border: 3px solid #ff7739;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+main > header > button:hover {
+    background: none;
+    color: #ff7739;
+}
+
+section {
+    margin-left: 410px;
+    padding: 20px;
+}
+
+section > h3 {
+    margin: 20px 0 0 20px;
+    text-transform: capitalize;
+}
+
+section > h4 {
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+article {
+    position: relative;
+    display: inline-block;
+    height: 340px;
+    width: 350px;
+    margin: 20px 85px 5px 20px;
+    background-color: #fff;
+    box-shadow: 8px 6px 17px -1px rgba(0, 0, 0, 0.26);
+}
+.rented{
+    opacity: 0.6;
+}
+article > img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+h5, h6 {
+    text-transform: capitalize;
+    padding: 15px 10px 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+div {
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60px;
+    left: -20px;
+    line-height: 37px;
+    width: 115px;
+    height: 37px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.green {
+    background-color: #68bc69;
+}
+
+.dark-grey {
+    background-color: #91A5AF;
+}
+
+.grey-text {
+    color: #91A5AF;
+}
