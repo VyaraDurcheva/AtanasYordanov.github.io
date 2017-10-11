@@ -54,11 +54,12 @@ body {
     margin: 0 auto;
 }
 
-.first-header button {
+.first-header a {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     margin: 50px;
     padding: 15px 20px;
+    text-decoration: none;
     background-color: #10183A;
     color: #fff;
     border: 1px solid #10183A;
@@ -67,13 +68,13 @@ body {
     font-size: 18px;
 }
 
-.first-header button:hover, .first-header button:hover i {
+.first-header a:hover, .first-header a:hover i {
     background: rgb(187, 146, 94);
     border-color: rgb(187, 146, 94);
     color: #000;
 }
 
-.first-header button i {
+.first-header a i {
     color: #D0AB96;
 }
 
