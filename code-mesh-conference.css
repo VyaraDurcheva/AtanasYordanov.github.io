@@ -308,6 +308,7 @@ body > header > section > article p {
     border-bottom: 3px solid #fa692e;
     font-size: 16px;
     color:#fff;
+    outline: none;
 }
 
 .events button {
